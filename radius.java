@@ -26,11 +26,13 @@ public class radius
     {
     	Scanner input = new Scanner(System.in);
         a = input.nextDouble();
+        input.close();
         return a;
     }
         public static Double getRadius(Double a)
     {
-    	Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        input.close();
         a = input.nextDouble();
         return a;
     }

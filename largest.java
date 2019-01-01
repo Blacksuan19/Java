@@ -11,6 +11,7 @@ public class largest
             nums[i] = input.nextDouble();
         }
         System.out.println("The maximum number is: " + max(nums));
+        input.close();
     }
     public static double max(double[] array)
     {
@@ -22,7 +23,6 @@ public class largest
                 largest = array[i];
             }
         }
-
         return largest;
     }
 }

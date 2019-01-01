@@ -6,9 +6,10 @@ public class reverse
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int num = input.nextInt();
-        reverse(num);
+        Reverse(num);
+        input.close();
     }
-    public static void reverse(int num)
+    public static void Reverse(int num)
     {
         int reversed = 0;
         while(num != 0)

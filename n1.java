@@ -16,5 +16,6 @@ public class n1
         time %= 60;
         int seconds = time;
         System.out.print(hour + " hours and " + minutes + " minutes and " + seconds + " seconds\n");
+        input.close();
     }
 }

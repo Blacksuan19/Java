@@ -13,6 +13,7 @@ public class n4
         	coming = (int)coming % 7;
         }
         System.out.println("Today is " + days[current] + " and the future day is " + days[current + coming]);
+        input.close();
     }
 
 }

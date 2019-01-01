@@ -1,12 +1,13 @@
 import java.util.*;
+
+import com.sun.corba.se.spi.orbutil.fsm.Input;
 public class grades
 {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        int students;
         System.out.print("Enter number of students: ");
-        students = input.nextInt();
+        int students = input.nextInt();
         int[] grades = new int[students];
         System.out.print("Enter " + grades.length + " grades: " );
         for (int i = 0; i < grades.length ; i++ )
@@ -35,6 +36,8 @@ public class grades
             {
                 System.out.printf("Student %d score is %d and the grade is F\n", i + 1, grades[i]);
             }
-        }
+        
+        input.close();
+    }
     }
 }

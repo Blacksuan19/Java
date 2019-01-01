@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - max",
+            "request": "launch",
+            "mainClass": "max"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - em",
+            "request": "launch",
+            "mainClass": "em"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - compNum",
+            "request": "launch",
+            "mainClass": "compNum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - add",
+            "request": "launch",
+            "mainClass": "add"
+        }
+    ]
+}

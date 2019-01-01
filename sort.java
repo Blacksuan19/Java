@@ -11,6 +11,7 @@ public class sort
             a[i] = input.nextDouble();
         }
         displaySortedNumbers(a);
+        input.close();
     }
     public static void displaySortedNumbers(double[] a)
     {

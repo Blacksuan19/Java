@@ -3,9 +3,6 @@ public class Car {
     String year;
     double price;
     Car() {
-        model = "";
-        year = "";
-        price = 0.0;
     }
     public String getType() {
         return model;

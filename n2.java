@@ -4,7 +4,7 @@ public class n2
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter last 4 digits of you identity card: ");
+        System.out.print("Enter last 4 digits of your identity card: ");
         int digi = input.nextInt();
         int length = (int)(Math.log10(digi) + 1); // check if the entered number has less or more than 4 digits
         while (length != 4)
@@ -21,5 +21,6 @@ public class n2
         {
             System.out.println("Male");
         }
+        input.close();
     }
 }

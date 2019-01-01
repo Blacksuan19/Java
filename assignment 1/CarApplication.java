@@ -8,13 +8,13 @@ public class CarApplication {
         cad.setModel("Cadillac X24 ");
         cad.setYear("2019");
         cad.setPrice(35); // in thousands.
-        System.out.println(bugatti.model + bugatti.year + " price is: $" + bugatti.price + " Million.");
-        System.out.println(cad.model + cad.year + " price is: $" + cad.price + " thousand.\n");
-        double bugDisc = bugatti.price * 0.05;
-        double cadDisc = cad.price * 0.07;
-        bugatti.setPrice(bugatti.price - bugDisc); // in mllion.
-        cad.setPrice(cad.price - cadDisc); // in thousands.
-        System.out.println(bugatti.model + bugatti.year + " price after 5% discount is: $" + String.format("%.2f", bugatti.price) + " Million."); // format to 2 decimal points.
-        System.out.println(cad.model + cad.year + " price after 7% discount is: $" + cad.price + " thousand.");
+        System.out.println(bugatti.model + bugatti.getYear() + " price is: $" + bugatti.getPrice() + " Million.");
+        System.out.println(cad.model + cad.getYear() + " price is: $" + cad.getPrice() + " thousand.\n");
+        double bugDisc = bugatti.getPrice() * 0.05;
+        double cadDisc = cad.getPrice() * 0.07;
+        bugatti.setPrice(bugatti.getPrice() - bugDisc); // in mllion.
+        cad.setPrice(cad.getPrice() - cadDisc); // in thousands.
+        System.out.println(bugatti.model + bugatti.getYear() + " price after 5% discount is: $" + String.format("%.2f", bugatti.getPrice()) + " Million."); // format to 2 decimal points.
+        System.out.println(cad.model + cad.getYear() + " price after 7% discount is: $" + cad.getPrice() + " thousand.");
     }
 }

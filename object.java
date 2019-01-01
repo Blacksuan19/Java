@@ -22,6 +22,7 @@ class car
         this.year = year;
         this.power = power;
     }
+    
 }
 public class object
 {
@@ -40,6 +41,7 @@ public class object
         System.out.print("Enter car horse power: ");
         fav.power = input.nextInt();
         System.out.println(fav.brand + "\n" + fav.name + "\n" + fav.speed + "\n" + fav.year + "\n" + fav.power + "\n");
+        input.close();
     }
 
 }

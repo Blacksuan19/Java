@@ -25,5 +25,6 @@ public class compNum
                 System.out.printf("number %d at index %d is equal to %d \n", nums[i], i + 1, nums[10]);
             }
         }
+        input.close();
     }
 }

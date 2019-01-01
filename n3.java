@@ -26,5 +26,6 @@ public class n3
             charge += 60;
         }
         System.out.println("The charge for RM " + check + " is RM" + charge);
+        input.close();
     }
 }

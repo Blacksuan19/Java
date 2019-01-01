@@ -15,5 +15,6 @@ public class hi{
 		else {
 			System.out.println("Not divisable by either 5 or 2");
 		}
+		in .close();
 	}
 }

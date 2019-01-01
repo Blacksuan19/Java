@@ -33,7 +33,7 @@ public class em
         printFirst();
         printSec(Second.name, Second.age);
         System.out.println("\nTotal salary for " + "third employee (" +  Third.name + ") is: " + calcSalary(Third.salary, Third.incre));
-
+        input.close();
     }
     static void printFirst()
     {

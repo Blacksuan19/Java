@@ -20,5 +20,6 @@ public class n5
             }
         }
         while(score != -1);
+        input.close();
     }
 }
